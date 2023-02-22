@@ -6,3 +6,18 @@ Traceback (most recent call last):
     x = TRUE
 NameError: name 'TRUE' is not defined. Did you mean: 'True'?
 >>> x = True
+>>>  y = 14
+...  
+SyntaxError: unexpected indent
+>>> y = 14
+>>> z = 14.8
+>>> type(z)
+<class 'float'>
+>>> s = "Hi"
+>>> x= 5
+>>> type(x)
+<class 'int'>
+>>> float(x)
+5.0
+>>> type(x)
+<class 'int'>

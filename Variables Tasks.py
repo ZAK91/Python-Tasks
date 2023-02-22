@@ -21,3 +21,11 @@ SyntaxError: unexpected indent
 5.0
 >>> type(x)
 <class 'int'>
+>>> print("yes we can convert the int to string by using int() function ")
+yes we can convert the int to string by using int() function 
+>>> z = [1,2,3,4,5]
+>>> type of (z)
+SyntaxError: invalid syntax
+>>> 
+>>> type(z)
+<class 'list'>

@@ -29,3 +29,11 @@ SyntaxError: invalid syntax
 >>> 
 >>> type(z)
 <class 'list'>
+>>> x= 5
+>>> tuble(z)
+Traceback (most recent call last):
+  File "<pyshell#17>", line 1, in <module>
+    tuble(z)
+NameError: name 'tuble' is not defined. Did you mean: 'tuple'?
+>>> tuple(z)
+(1, 2, 3, 4, 5)

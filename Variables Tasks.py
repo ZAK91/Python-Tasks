@@ -17,14 +17,14 @@ s = "Hi"
 x= 5
 type(x)
 <class 'int'>
->>> float(x)
+float(x)
 5.0
->>> type(x)
+type(x)
 <class 'int'>
->>> print("yes we can convert the int to string by using int() function ")
+print("yes we can convert the int to string by using int() function ")
 yes we can convert the int to string by using int() function 
->>> z = [1,2,3,4,5]
->>> type of (z)
+z = [1,2,3,4,5]
+type of (z)
 SyntaxError: invalid syntax
 >>> 
 >>> type(z)
@@ -56,3 +56,9 @@ NameError: name 'zakria' is not defined
 >>> a={1: 'zakria' , 2 : 'ahmad' , 3: 'mohammad' , 4 : 'yahya' , 5 : 'jebrel'}
 >>> type(a)
 <class 'dict'>
+>>> print('yes, we can use the semicolon in python but when we need it , not in every single statment)
+...       
+SyntaxError: incomplete input
+>>> print('yes, we can use the semicolon in python but when we need it , not in every single statment')
+...       
+yes, we can use the semicolon in python but when we need it , not in every single statment

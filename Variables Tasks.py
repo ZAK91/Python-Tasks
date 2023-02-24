@@ -5,17 +5,17 @@ Traceback (most recent call last):
   File "<pyshell#0>", line 1, in <module>
     x = TRUE
 NameError: name 'TRUE' is not defined. Did you mean: 'True'?
->>> x = True
->>>  y = 14
-...  
+x = True
+ y = 14
+ 
 SyntaxError: unexpected indent
->>> y = 14
->>> z = 14.8
->>> type(z)
+y = 14
+z = 14.8
+type(z)
 <class 'float'>
->>> s = "Hi"
->>> x= 5
->>> type(x)
+s = "Hi"
+x= 5
+type(x)
 <class 'int'>
 >>> float(x)
 5.0
@@ -40,3 +40,19 @@ NameError: name 'tuble' is not defined. Did you mean: 'tuple'?
 >>> a = (10,11,12,13,14,15)
 >>> type(a)
 <class 'tuple'>
+>>> a={1,2,3,4,5}
+>>> type(a)
+<class 'set'>
+>>> a={1:zakria , 2 : ahmad , 3: mohammad , 4 : yahya , 5 : jebrel}
+Traceback (most recent call last):
+  File "<pyshell#23>", line 1, in <module>
+    a={1:zakria , 2 : ahmad , 3: mohammad , 4 : yahya , 5 : jebrel}
+NameError: name 'zakria' is not defined
+>>> a={1 : zakria , 2 : ahmad , 3: mohammad , 4 : yahya , 5 : jebrel}
+Traceback (most recent call last):
+  File "<pyshell#24>", line 1, in <module>
+    a={1 : zakria , 2 : ahmad , 3: mohammad , 4 : yahya , 5 : jebrel}
+NameError: name 'zakria' is not defined
+>>> a={1: 'zakria' , 2 : 'ahmad' , 3: 'mohammad' , 4 : 'yahya' , 5 : 'jebrel'}
+>>> type(a)
+<class 'dict'>
